@@ -3,7 +3,3 @@ def conta_lettere(a):
   for i in a:
     b.append(len(i))
   print (b)
-
-l = ["ciao", "ciao", "bambina"]
-
-conta_lettere(l)
