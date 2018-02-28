@@ -2,4 +2,8 @@ def conta_lettere(a):
   b = []
   for i in a:
     b.append(len(i))
-  return b
+  print (b)
+
+l = ["ciao", "ciao", "bambina"]
+
+conta_lettere(l)
