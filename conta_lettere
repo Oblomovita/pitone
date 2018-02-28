@@ -1,0 +1,7 @@
+def conta_lettere(a):
+  b = ""
+  for i in a:
+    b = b + str((len(i)))
+  print(b)
+
+l = ["ciao", "ciao", "bambina"]
