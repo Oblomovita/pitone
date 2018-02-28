@@ -1,7 +1,5 @@
 def conta_lettere(a):
-  b = ""
+  b = []
   for i in a:
-    b = b + str((len(i)))
-  print(b)
-
-l = ["ciao", "ciao", "bambina"]
+    b.append(len(i))
+  return b
